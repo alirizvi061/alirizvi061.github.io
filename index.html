@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href='style.css'>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+    </style>
+    <script src='app.js'></script>
+    <meta charset=“UTF-8”>
+    <!-- emoji meta code obtained from: https://medium.com/@hollybourneville/how-to-use-emojis-in-html-b3c671e21b92 -->
+    <title>LYRA</title>
+</head>
+
+<body>
+    <div id='modal' class='introModal'>
+        <div id='insideDiv'>
+            <div id='insideText'>
+                <h1>Hi there! &#x1F44B;</h1>
+                <!-- emoji code obtained from:  https://unicode.org/emoji/charts/full-emoji-list.html-->
+                <p>I see you're checking out my trivia game</p>
+                <p>...It would be rude if I didn't introduce myself!</p>
+                <p>My name is Ali Rizvi and I'm a Software Engineer based in Los Angeles, California</p>
+                <p>The API for this awesome game was obtained from: https://opentdb.com/api_config.php</p>
+                <p>...Now without further ado...</p>
+                <h2>LET THE TRIVIA BEGIN!</h2>
+                <button class='closeButton'>Close</button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <header>
+            <h1>LYRA Trivia </h1>
+        </header>
+        <button class='start'>Start Game</button>
+        <h5 id="pressStart">Press "Start Game" to play game</h5>
+    </div>
+    <div class="onScreenDiv">
+        <ul id="onScreenUl"></ul>
+    </div>
+    <main class='score'>
+        <div class='container'></div>
+        <div class='message'></div>
+    </main>
+    <footer class='footerButtons'>
+        <div class='footButton'></div>
+    </footer>
+</body>
+
+</html>
