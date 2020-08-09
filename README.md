@@ -6,7 +6,7 @@ LYRA Trivia is an app which allows users to play an interactive game of trivia. 
 
 ## Links
 
-- Live site on [GitHub](https://alirizvi061.github.io/LYRA-Trivia-Game-Project1/)
+- Live site on [GitHub](https://alirizvi061.github.io/)
 
 - [Notion Board](https://www.notion.so/9b244afb87204ff895c365b41624a3e8?v=3babd7591e124e7389279db12e493e6e)
 
